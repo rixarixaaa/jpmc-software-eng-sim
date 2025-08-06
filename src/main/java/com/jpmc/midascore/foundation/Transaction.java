@@ -1,6 +1,7 @@
 package com.jpmc.midascore.foundation;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.kafka.annotation.KafkaListener;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Transaction {
